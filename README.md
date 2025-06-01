@@ -90,5 +90,4 @@ e-commerce-cart-app/
 ## 🙌 Author
 
 **Aldrin Caballero**  
-Freelance & Full-Stack Developer  
 [GitHub](https://github.com/aldrin112602)
