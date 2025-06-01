@@ -1,0 +1,84 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Cart App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <nav
+      class="p-5 bg-white flex items-center md:justify-between justify-end fixed w-full top-0 left-0 shadow"
+    >
+      <h1
+        class="text-2xl font-bold hidden md:flex items-center justify-start gap-2"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+          class="w-10 h-10"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.293 1.293a1 1 0 000 1.414L7 17m10-4v6a1 1 0 11-2 0v-6m-8 0v6a1 1 0 11-2 0v-6m0 0h10"
+          />
+        </svg>
+        E-commerce Cart App
+      </h1>
+      <div class="flex items-center justify-end gap-5">
+        <a
+          href="/"
+          class="flex items-center justify-center gap-3 text-blue-600"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5 text-blue-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 9.75L12 3l9 6.75M4.5 10.5v9.75A1.5 1.5 0 006 21.75h3.75V15a1.5 1.5 0 011.5-1.5h1.5A1.5 1.5 0 0114.25 15v6.75H18a1.5 1.5 0 001.5-1.5V10.5"
+            />
+          </svg>
+
+          HOME
+        </a>
+        |
+        <a href="/cart.html" class="flex items-center justify-center gap-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.91 7.607a1.125 1.125 0 001.087.835h9.34a1.125 1.125 0 011.088 1.415l-1.5 6A1.125 1.125 0 0114.91 17H7.5a1.125 1.125 0 01-1.087-.835L4.5 11m-2.25-8.25h3M6 21h.008v.008H6V21zm12 0h.008v.008H18V21z"
+            />
+          </svg>
+          YOUR CART
+        </a>
+      </div>
+    </nav>
+    <div class="py-10"></div>
+    <section
+      id="product-list"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10 mt-5 px-5"
+    ></section>
+
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Gaming Laptop",
+    "image": "assets/images/laptop.jpg",
+    "price": 3000
+  },
+  {
+    "id": 2,
+    "name": "Wireless Mouse",
+    "image": "assets/images/mouse.jpg",
+    "price": 40
+  },
+  {
+    "id": 3,
+    "name": "Mechanical Keyboard",
+    "image": "assets/images/keyboard.jpg",
+    "price": 120
+  },
+  {
+    "id": 4,
+    "name": "Smartphone",
+    "image": "assets/images/phone.jpg",
+    "price": 950
+  },
+  {
+    "id": 5,
+    "name": "Noise Cancelling Headphone",
+    "image": "assets/images/headphone.jpg",
+    "price": 220
+  },
+  {
+    "id": 6,
+    "name": "4K Monitor",
+    "image": "assets/images/monitor.jpg",
+    "price": 350
+  },
+  {
+    "id": 7,
+    "name": "Smartwatch",
+    "image": "assets/images/smartwatch.jpg",
+    "price": 180
+  },
+  {
+    "id": 8,
+    "name": "Portable SSD 1TB",
+    "image": "assets/images/ssd.jpg",
+    "price": 140
+  }
+]
