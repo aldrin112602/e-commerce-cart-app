@@ -25,6 +25,8 @@ This is a basic e-commerce shopping cart web app built using vanilla JavaScript,
    live-server
    ```
 
+4. **See Live Preview**
+   Or Visit Deployment at [E-commerce-cart-app](https://aldrin112602.github.io/e-commerce-cart-app/)
 ---
 
 ## ✨ Features Implemented
