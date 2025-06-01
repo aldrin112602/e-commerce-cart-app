@@ -80,7 +80,8 @@ e-commerce-cart-app/
 │   ├── api.js           # Product data
 │   ├── cart.js          # Cart logic
 │   ├── coupon.js        # Coupon logic
-│   ├── render.js        # Product rendering
+│   ├── product.js       # Product rendering
+│   ├── main.js          # Main js
 │   └── selector.js      # Helper function
 └── README.md
 ```
